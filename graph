@@ -1,0 +1,23 @@
+digraph G {
+"main" -> "my_objdump";
+"my_objdump" -> "func_0x400890@./my_nm";
+"func_0x400890@./my_nm" -> "func_0x7FD15E786820@./my_nm";
+"func_0x7FD15E786820@./my_nm" -> "func_0x7FD15E781C80@./my_nm";
+"func_0x7FD15E781C80@./my_nm" -> "func_0x7FD15E7810F0@./my_nm";
+"func_0x7FD15E7810F0@./my_nm" -> "func_0x7FD15E788590@./my_nm";
+"func_0x7FD15E788590@./my_nm" -> "func_0x7FD15E791640@./my_nm";
+"func_0x7FD15E7810F0@./my_nm" -> "func_0x7FD15E780F50@./my_nm";
+"func_0x7FD15E780F50@./my_nm" -> "func_0x7FD15E791640@./my_nm";
+"func_0x400890@./my_nm" -> "open";
+"my_objdump" -> "func_0x400860@./my_nm";
+"func_0x400860@./my_nm" -> "func_0x7FD15E786820@./my_nm";
+"func_0x400860@./my_nm" -> "func_0x7FD15E420DA0@./my_nm";
+"func_0x7FD15E420DA0@./my_nm" -> "func_0x7FD15E423C10@./my_nm";
+"func_0x7FD15E423C10@./my_nm" -> "func_0x7FD15E420DA0@./my_nm";
+"func_0x7FD15E420DA0@./my_nm" -> "func_0x7FD15E4644D0@./my_nm";
+"func_0x7FD15E423C10@./my_nm" -> "func_0x7FD15E45A420@./my_nm";
+"my_objdump" -> "func_0x7FD15E44EA90@./my_nm";
+"main" -> "func_0x7FD15E44BB50@./my_nm";
+"func_0x7FD15E44BB50@./my_nm" -> "func_0x7FD15E4B5520@./my_nm";
+"func_0x7FD15E4B5520@./my_nm" -> "write";
+}
